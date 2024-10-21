@@ -1,0 +1,43 @@
+gunicorn==22.0.0
+# SQLAlchemy for database interactions
+sqlalchemy==2.0.29
+
+# cx_Oracle for Oracle database connectivity
+cx_Oracle==8.3.0
+
+# urllib3 for handling URLs
+urllib3==2.2.1
+
+# langchain packages
+langchain==0.2.9
+langchain-core==0.2.37
+langchain-community==0.2.1
+langchain-openai==0.1.21rc1
+langchain-huggingface==0.0.3
+langchain-text-splitters==0.2.0
+langserve==0.2.2
+langgraph==0.2.2
+langgraph-checkpoint==1.0.2
+
+
+# OpenAI API for language models
+openai==1.35.1
+
+# LangSmith for tracing
+langsmith==0.1.93
+
+# FastAPI for building web applications
+fastapi==0.110.3
+
+# Python-dotenv for managing environment variables
+python-dotenv==1.0.1
+
+# Uvicorn for ASGI server
+uvicorn==0.23.2
+
+# Additional dependencies
+huggingface-hub==0.23.3
+faiss-cpu==1.8.0
+typing-extensions==4.8.0
+typing
+sse-starlette==1.8.2
