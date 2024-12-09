@@ -520,15 +520,15 @@ def merger(state):
 def should_continue(state) -> Literal["summarize_conversation", "__end__"]:
     """Return the next node to execute."""
     messages = state["messages"]
-    # If there are more than six messages, then we summarize the conversation
+    # If there are more than four messages, then we summarize the conversation
     if len(messages) > 4:
         return "summarize_conversation"
-    # Otherwise we can just end
+
     return END
 
 
 def summarize_conversation(state):
-    # First, we summarize the conversation
+    # Summarize the conversation
     summary = state.get("summary", "")
     if summary:
         # If a summary already exists, we use a different system prompt
@@ -542,8 +542,8 @@ def summarize_conversation(state):
 
     messages = state["messages"] + [HumanMessage(content=summary_message)]
     response = llm.invoke(messages)
-    # We now need to delete messages that we no longer want to show up
-    # I will delete all but the last two messages, but you can change this
+    # Delete messages that we no longer want to show up
+    
     new_messages=[]
     try :
         for i in state["messages"]:
@@ -604,7 +604,7 @@ def parse(message: dict) -> str:
             if agent in output_content and output_content[agent]!=[]:
                 return output_content[agent].content
     
-    # If no conditions match, return an empty string or a default message
+    # If no conditions match, return a message
     return "There was an error in processing the message. Please contact the system administrator."
 
 #agentic workflow building
