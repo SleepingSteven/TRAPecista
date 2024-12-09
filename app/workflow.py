@@ -617,7 +617,7 @@ def create_workflow():
             "SQL": "SQL-agent",
         },
     )
-    workflow.add_node("RAG-agent", retriever_agent)  # RAG
+    workflow.add_node("RAG-agent", retriever_agent) 
     workflow.add_node("SQL-agent", call_agent)
     workflow.add_node("append", append_state)
     workflow.add_conditional_edges("RAG-agent", checker)
