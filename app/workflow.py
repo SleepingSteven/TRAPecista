@@ -604,7 +604,7 @@ def parse(message: dict) -> str:
             if agent in output_content and output_content[agent]!=[]:
                 return output_content[agent].content
     
-    # If no conditions match, return a message
+    # If no conditions match, return a warning message
     return "There was an error in processing the message. Please contact the system administrator."
 
 #agentic workflow building
