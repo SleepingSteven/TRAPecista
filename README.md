@@ -1,7 +1,7 @@
 <h1>Data Science for Knowledge Management at CERN: AI and NLP solutions<br>
 TRAPecista, an Expert Chatbot for Integrated SQL and Technical Assistance.</h1> <br>
 
-<img src="img/Toulouse-Lautrec, Le trapeze volant.jpg" width="500" style="text-align: center" /> <br>                                                                         
+<img src="img/Toulouse-Lautrec, Le trapeze volant.jpg" width="400" style="text-align: center" /> <br>                                                                         
 
 Henri de Toulouse-Lautrec, "Le trapèze volant", 1899
 
