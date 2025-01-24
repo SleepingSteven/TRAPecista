@@ -9,7 +9,7 @@ Henri de Toulouse-Lautrec, "Le trapèze volant", 1899
 It supports different LLMs chat models / embeddings and it is built as a multi-agent graph, using the langchain library and RAG technologies, achieving efficient text-to-SQL (without full-disclosure of the prompts, examples, RAG documents and architecture).</h4>
 <h4>This version is set to support OpenAI models. To change the OpenAI API key, edit the environment variable "OPEN_AI_API_KEY". To change the Large Language Model, edit the environment variable "MODEL_NAME". The default model is "gpt-4o-mini".</h4>
 
-<a href="https://drive.google.com/drive/folders/1rakSJeKJDmcE7m7xzYjdXcRM1hbSWzXl?usp=share_link">DEMO</a><br>
+<a href="https://drive.google.com/drive/folders/1rakSJeKJDmcE7m7xzYjdXcRM1hbSWzXl?usp=share_link">LINK TO DEMO AND DOCUMENTS</a><br>
 <br>
 <img src="img/TRAP3.png" width="900" style="text-align: center" /> <hr>        
 <img src="img/TRAP2.png" width="900" style="text-align: center" /> <hr>   
@@ -18,5 +18,5 @@ It supports different LLMs chat models / embeddings and it is built as a multi-a
 <img src="img/TRAP5.png" width="500" style="text-align: center" /> <hr>   
 <img src="img/TRAP6.png" width="700" style="text-align: center" /> <hr>  
 <img src="img/TRAP1.png" width="900" style="text-align: center" /> <hr>   
-<img src="img/TRAP4.png" width="900" style="text-align: center" /> <hr>   
+<img src="img/TRAP4.png" width="900" style="text-align: center" /> <br>   
 
