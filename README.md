@@ -14,3 +14,5 @@ It supports different LLMs chat models / embeddings and it is built as a multi-a
 <img src="img/TRAP3.png" width="900" style="text-align: center" /> <br>        
 <img src="img/TRAP2.png" width="900" style="text-align: center" /> <br>   
 <img src="img/TRAP1.png" width="900" style="text-align: center" /> <br>   
+<img src="img/TRAP4.png" width="900" style="text-align: center" /> <br>   
+
