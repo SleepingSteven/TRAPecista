@@ -11,7 +11,7 @@ It supports different LLMs chat models / embeddings and it is built as a multi-a
 
 <a href="https://drive.google.com/drive/folders/1rakSJeKJDmcE7m7xzYjdXcRM1hbSWzXl?usp=share_link">LINK TO DEMO AND DOCUMENTS</a><br>
 <br>
-<h3>Examples</h4><hr>
+<h2>Examples</h2><hr>
 <img src="img/TRAP3.png" width="900" style="text-align: center" /> <hr>        
 <img src="img/TRAP2.png" width="900" style="text-align: center" /> <hr>   
 <img src="img/TRAP7.png" width="500" style="text-align: center" /> <hr>   
